@@ -33,12 +33,12 @@ description = f'User added by {admin_username} via Python Selenium Automated scr
 pic_desc = f'Image submitted by {full_name}'
 
 webpage = fake.url()
-icq_num = fake.pyint(555555,777777)
+icq_num = fake.pyint(111111,999999)
 id_skype = new_username
-id_aim = f'{new_username}{fake.pyint(5555,777)}'
+id_aim = f'{new_username}{fake.pyint(1111,999)}'
 id_yahoo = fake.user_name()
 id_msn = fake.user_name()
-id_idnumber = fake.pyint(555555,77777777)
+id_idnumber = fake.pyint(111111,11111111)
 id_institution = fake.company()
 id_department = fake.catch_phrase()
 phonenum1 = fake.phone_number()

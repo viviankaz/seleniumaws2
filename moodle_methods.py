@@ -23,9 +23,6 @@ options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 
 
-
-
-
 def setUp():
     print(f'Launch {locators.app} App')
     print(f'------------------------------------------')
